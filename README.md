@@ -10,20 +10,31 @@ traversal
 display tree 
 
 Input format:
+
 X1 INT1
+
 X2 INT2
+
 -1
 
 X can be s (search), i (insert), r (remove), or t (traverse) integer,1 integer2 … are either the integer keys of the nodes (for s, i, and r) or the traversal type (1: preorder, 2: inorder, 3: postorder).
 
 Sample Input:
+
 i 53
+
 i 45
+
 i 65
+
 s 35
+
 s 53
+
 r 45
+
 r 49
+
 -1
 
 Output:
